@@ -1,0 +1,87 @@
+.search-tab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cities-container {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+button {
+  width: 100px;
+  height: 38px;
+  border: none;
+  background-color: rgb(71, 101, 200);
+  color: #fff;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.weather-card-container {
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  width: 200px;
+}
+.input-title {
+  font-weight: 600;
+  color: #f7f7f7;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.temp-image {
+  width: 50px;
+  height: 50px;
+}
+.temp {
+  font-weight: 600;
+  font-size: 28px;
+  color: #fff;
+}
+.place {
+  font-weight: 500;
+  font-size: 19px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+.other-info {
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.add-fav-btn {
+  width: 200px;
+  height: 38px;
+  border: none;
+  background-color: rgb(200, 183, 71);
+  color: #fff;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.detail-btn {
+  background-color: #f16a6a;
+}

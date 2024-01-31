@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+  height: 60px;
+}
+.hamburger-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 195px;
+  cursor: pointer;
+}
+.navbar-location {
+  font-weight: 600;
+  font-size: 17px;
+  color: #262727;
+}
+.navbar-location-container {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.location-icon {
+  color: rgb(170, 58, 58);
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
